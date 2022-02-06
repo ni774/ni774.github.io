@@ -1,0 +1,38 @@
+
+.main_header{
+   background-image: url("./background.jpg");
+   background-color:rgb(99, 90, 99);
+   height:93vh;
+}
+.img{
+   width: 28rem;
+   height:28rem;
+   border-radius:50%;
+   position: relative;
+   bottom: 0;
+   right:29rem;
+}
+.name{
+   position: absolute;
+   bottom:14em;
+   right:17rem;
+}
+
+@media(max-width:650px){
+   .main_header{
+     font-size: 50%;
+     height: 37vh; 
+      
+   }
+   .name{
+      position: relative;
+      bottom:0rem;
+      left:3rem;
+   }
+   .img{
+      position: relative;
+      right:6rem;
+      height: 45%;
+      width: 50%;
+   }
+}
