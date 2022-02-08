@@ -45,7 +45,7 @@ button{
 }
 @media(max-width:600px){
     .container{
-        height: 37vh;
+        height: 77vh;
         font-size: 80%;
     }
     .form-group{
