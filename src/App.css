@@ -1,38 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+
+}
+
 *{
   margin: 0%;
   padding: 0%;
 }  
 .App {
+  scroll-snap-align: start;
   text-align: center;
-  background-image: url("./navcomponent/background.jpg");
-}
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
+  /* background-image: url("./img/background.jpg");
+  background-size:cover;*/
+} 
 
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-.fa {
-  padding-top:0.5em;
-  font-size: 15px;
-  width: 2em;
-  height: 2em;
-  text-align: center;
-  text-decoration: none;
-  margin: 1em 2em;
-  border-radius: 20%;
-  background-image:linear-gradient(red,yellow);
-}
-.material-icons{
-  font-size:2em;
-}
  
 @media(max-width:700px){
   body{

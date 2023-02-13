@@ -1,66 +1,86 @@
  .container{
-       justify-content: center;
-        height: 93vh;
-        color: white;
         padding:0;
-        background-color:rgba(0,0,0,0.6);
-        box-shadow: 8px 8px 6px 6px darkslategray;
+        /* background-color */
         overflow: hidden;
-        margin:0.5em 7em;
-        border-radius: 2em;
-
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 2em;
+        margin-bottom: 1em;
+        border-radius:1em;
          
 }
-textarea{
-    border-radius: .5rem;
-}
-#text-heading{
-    display: flex;
-    justify-content: center;
-    background-color: rgba(0,0,0,0.5);
-    margin:.0 11em;
-    padding: 0%;
-    border-radius: 2rem;
+.talk-div{
+    background: rgb(234, 244, 245);
+    width: 38%;
+    height: 8em;
+    margin: .4em;
+    border-radius: 1em;
+    border: 1px solid black;
+    align-items: center;
     
 }
-.massage{
-    margin: 1em 20rem;
-    border-radius: 4rem;
-    font-weight: bold;
+.talk-div:hover{
+    transform: translateX(1);
 }
-level{
+.c1{
+    width: 50%;
+    background:rgb(234, 244, 245);
+    margin-right: 2em;
     display: flex;
-    justify-content: center;
-    margin-top: 2em;
-    font-weight: bold;
+    align-items: center;
+    flex-direction: column;
 }
+#c1{
+    margin-left:4em;
+} 
+#c2{
+    margin-left:-5em;
+}
+.input{
+    height: 8em;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-size: 2rem;
+}
+form{
+    height:120%;
+}
+
 input{
-    border-radius: .5rem;
-    padding: .4rem 0;
+    border-radius: 0.6rem;
+    padding: 0.4rem 12px;
+    height: 9vh;
+    width: 130%;
+    display: block;
+    border: 1px solid black;
+}
+.project{
+    height: 20vh;
+    
+}
+label{
+    background: #fff;
+    width: min-content;
+    padding: 0;
+    position: relative;
+    top: .8em;
+    left: .9em;
 }
 button{
     padding: 0 1em;
     border-radius: .5rem;
-    background-color: cornflowerblue;
+    background-color: black;
+    color: white;
+   float: left;
+    margin-top: 1em;
 }
-@media(max-width:600px){
-    .container{
-        height: 77vh;
-        font-size: 80%;
-    }
-    .form-group{
-        position: relative;
-        right:15rem;
-        width:2rem;
-    }
-    #text-heading{
-        position: relative;
-        right:12rem;
-    }
-}
-@media(min-width:600px)and(max-width:700px){
-    .form-group{
-        position: relative;
-        right: 15rem;
-    }
+button >span{
+    color: white;
+    position: relative;
+    top:.3em;
+   
 }

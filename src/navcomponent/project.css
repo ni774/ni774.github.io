@@ -1,0 +1,38 @@
+.project-card{
+    width: 65%;
+    height: 10em;
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(210, 216, 221);
+    margin: 1em;
+    margin-left: 5em;
+    border: 1px solid black;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+.project-card >img{
+    opacity: 80%;
+    
+}
+.project-card > div{
+    margin: auto;
+    width: 70%;
+}
+
+.project-container{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    margin-top: 1em;
+    
+}
+
+.project-card:hover{
+    transform: scale(1.1);
+    transition-delay: .1s;
+    transition-timing-function: ease;
+}
+:root {
+    --animate-delay: 3s;
+  }

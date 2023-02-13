@@ -1,0 +1,25 @@
+.skill-container{
+    width: 50%;
+    padding-left: 13em; 
+}
+.skills{
+    width: 15em;
+    height: 4em;
+    background:rgb(210, 216, 255);
+    border-radius: .5em;
+    margin-top: 2em;
+    border: 1px solid black;
+}
+.skills > div{
+    width: 10%;
+    border-bottom-right-radius: .5em;
+    background:white;
+}
+.skills:nth-child(2n+1){
+    position: relative;
+    left: 4em;
+}
+.skills:nth-child(2n){
+    position: relative;
+    right: 4em;
+}

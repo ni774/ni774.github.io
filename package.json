@@ -4,7 +4,9 @@
   "homepage": "https://ni774.github.io",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.6.0",
     "react": "^16.8.0-alpha.1",
+    "react-bootstrap": "^2.7.0",
     "react-dom": "^16.8.0-alpha.1",
     "react-router-dom": "^6.2.1",
     "react-scripts": "^2.0.3",

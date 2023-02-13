@@ -1,0 +1,28 @@
+.fa-instagram {
+    background: linear-gradient(#de2635,yellow);
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: white;
+    color: blue;
+    /* background-image:linear-gradient(blue,white); */
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa {
+    padding-top:0.5em;
+    font-size: 15px;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    text-decoration: none;
+    margin: 1em 2em;
+    border-radius: 20%;
+    /* background-image:linear-gradient(red,yellow); */
+  }
+  .material-icons{
+    font-size:2em;
+  }

@@ -22,14 +22,15 @@ export default function Navbar() {
         </li>
       </ul>
       <div  >
-      <span className="material-icons" style={{color:"white", margin:"0 0 0 10em"}}>
-       phone
-      </span>
-      <span style={{color:"white",}}>+919109750275</span>
-      <span className="material-icons"style={{color:"white",margin:"0 0 0 5em"}}>
-      email
-      </span>
-      <span style={{color:"white",}}>gnikhil556@gmail.com</span>
+          <span className="material-icons" style={{color:"white", margin:"0 0 0 10em"}}>
+           phone
+          </span>
+          <span style={{color:"white",}}>+919109750275</span>
+          <span className="material-icons"style={{color:"white",margin:"0 0 0 5em"}}>
+          email
+          </span>
+          <span style={{color:"white",}}>gnikhil556@gmail.com</span>
+        
       </div>
     </div>
   </nav>
