@@ -13,13 +13,13 @@ class Home extends React.Component{
       <img src={nikhil} alt=""class="img"/>
       <div className="coding-profile"> 
         <div className="animate__animated animate__lightSpeedInLeft animate__delay-.6s">
-          <a href={github} target="_blank" rel="noopener noreferrer">gitHub</a> 
+          <a href={github} target="_blank" rel="noopener noreferrer">GitHub</a> 
         </div>
         <div className="animate__animated animate__lightSpeedInLeft animate__delay-.5s">
         <a href={leetcode} target="_blank" rel="noopener noreferrer">leetCode</a>
         </div>
         <div className="animate__animated animate__lightSpeedInLeft animate__delay-.4s">
-             <a href={gfg} target="_blank" rel="noopener noreferrer">gfg</a>
+             <a href={gfg} target="_blank" rel="noopener noreferrer">GFG</a>
         </div>
       </div>
        <span className="name">
