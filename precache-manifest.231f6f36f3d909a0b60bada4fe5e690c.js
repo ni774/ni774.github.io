@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/newResume sde.76c66b59.pdf"
   },
   {
-    "revision": "158bf839cb6119672d46",
+    "revision": "d4e4833ce22651a85f31",
     "url": "/static/css/main.125adaa6.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/static/media/nikhil.601ce727.jpeg"
   },
   {
-    "revision": "158bf839cb6119672d46",
-    "url": "/static/js/main.158bf839.chunk.js"
+    "revision": "d4e4833ce22651a85f31",
+    "url": "/static/js/main.d4e4833c.chunk.js"
   },
   {
     "revision": "32ab27e7ecdd5c529a30cecd2f42f60d",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/static/media/milad-fakurian-UiiHVEyxtyA-unsplash.a521a9c6.jpg"
   },
   {
-    "revision": "f9aeb8adb734595840dfceed26652758",
+    "revision": "6fe49f4a336758042f745cf1d07c902d",
     "url": "/index.html"
   }
 ];
