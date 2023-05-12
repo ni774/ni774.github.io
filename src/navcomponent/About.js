@@ -41,7 +41,7 @@ function About() {
           <p id="info-2">
             Web developer , i created webpages with UI/UX
             and fullstack websites. i am confident in server 
-            part as well as frontend part, have Projects in 
+            part as well as frontend, have Projects in 
             React and Node js.
 
           </p>
